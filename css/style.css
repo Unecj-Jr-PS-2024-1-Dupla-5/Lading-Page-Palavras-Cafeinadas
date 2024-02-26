@@ -10,7 +10,27 @@ NAV E FOOTER COLOR: #8F542E;
 
 */
 
-
 button.btn{
+    width: Fixed (282px);
+    height: Hug (57px);
+    top: 2936px;
+    left: 690px;
+    padding: 12px, 32px, 12px, 32px;
+    border-radius: 8px;
+    gap: 20px;
     background: rgba(143, 84, 46, 1);
+}
+
+button.btn text{
+    width: 188px;
+    height: 33px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+    color: rgba(240, 240, 240, 1);
+
 }
