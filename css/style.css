@@ -48,6 +48,24 @@ body{
     br#responsivo{
         display: none;
     }
+    footer{
+        display: inline-block !important;
+    }
+    div.footer-principal{
+        margin-left:10%;
+        margin-top:6%;
+        align-items: center;
+    }
+    div.footer-left{
+        margin: 0 !important;
+        margin-top: 3% !important;
+        margin-left: 10% !important;
+    }
+    div.footer-right{
+        margin: 0 !important;
+        margin-left: 10% !important;
+        text-align: left !important;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -352,3 +370,23 @@ div.venhaConhecerContainer {
     text-align: left;
     margin-bottom: 20px;
   }
+footer{
+    width: 100%;
+    background: rgba(87, 41, 11, 1);
+    color: rgba(255, 218, 184, 1);
+    font-family: "Open Sans", sans-serif;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:16px;
+
+}
+div.footer-left{
+    text-align: left;
+    margin:10%;
+}
+div.footer-right{
+    text-align: right;
+    margin:10%;
+}
