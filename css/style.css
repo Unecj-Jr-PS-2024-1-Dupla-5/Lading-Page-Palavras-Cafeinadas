@@ -194,8 +194,8 @@ div.contatoContainer{
     background-color: #f5f3ed;
 }
 div.contatoContent{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -203,23 +203,26 @@ div.contatoContent{
 }
 
 div.contatoTitleContent{
-    width: 200px;
+    width: 410px;
     padding-left: 5px;
     padding-bottom: 7px;
     background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%)
 }
 
 p.contatoTitle{
-    font-size: 20px;
     font-family: Cormorant Garamond;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
 
 div.contatoInternalContent{
     margin-top: 40px;
     display: flex;
     box-sizing: border-box;
-    height: 528px;
+    height: 928px;
     background-color: #f5f3ed;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -249,9 +252,14 @@ ul.contatoInfo li {
     display: flex;
     align-items: center;
     margin-top: 20px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
     color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
 
 ul.contatoInfo li p {
@@ -276,8 +284,13 @@ div.contatoFormContainer{
     border-bottom-left-radius: 0px;
     border-top-right-radius: 15px; 
     border-bottom-right-radius: 15px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Open Sans;
+    font-size: 24px;
     font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
 }
 
 .contatoFormContainer input {
@@ -298,7 +311,7 @@ div.contatoFormContainer{
   }
 
 .mensagemInput {
-    height: 200px;
+    height: 400px;
 }
   
   .contatoFormContainer button[type="submit"] {
@@ -320,7 +333,7 @@ div.contatoFormContainer{
   }
 
 div.contatoLogo {
-    margin-top: 20px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -328,10 +341,15 @@ div.contatoLogo {
 }
 
 div.contatoLogo p {
-    margin-top: 5px;
+    margin-top: 15px;
     color: white;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-family: Cormorant Garamond;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    
 }
 
 div.venhaConhecerContainer {
@@ -341,7 +359,7 @@ div.venhaConhecerContainer {
 
 div.venhaConhecerMainContainer {
     width: 100%;
-    height: 54%;
+    height: 45.5%;
     background-image: url('/images/senha-conhecer-background.jpeg');
     background-size: 140%;
     /* background-size: cover;  */
@@ -371,6 +389,67 @@ div.venhaConhecerMainContainer {
     text-align: left;
     margin-bottom: 20px;
   }
+
+div.sobreNosMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: #f5f3ed;
+
+}
+
+div.sobreNosdata {
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+div.sobreNosMainContainer p {
+    width: 70%;
+    color: #1f0c00;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.sobreNosImg img {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 160px;
+}
+
+div.sobreNosTitleContent{
+    width: 230px;
+    padding-left: 5px;
+    padding-bottom: 7px;
+    background: linear-gradient(to top, #fbc9a8 55%, #f5f3ed 45%)
+}
+
+h3.sobreNosTitle {
+    font-family: Cormorant Garamond;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
+
 footer{
     width: 100%;
     background: rgba(87, 41, 11, 1);
@@ -391,3 +470,4 @@ div.footer-right{
     text-align: right;
     margin:10%;
 }
+
