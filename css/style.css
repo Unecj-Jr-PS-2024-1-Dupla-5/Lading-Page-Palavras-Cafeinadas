@@ -66,6 +66,12 @@ body{
         margin-left: 10% !important;
         text-align: left !important;
     }
+    header{
+        margin-top:-64px !important;
+    }
+    main{
+        margin-top:64px !important;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -74,9 +80,14 @@ body{
     }
 }
 
+main{
+    margin-top:100px;
+}
+
 header{
     position: fixed;
     width: 100%;
+    margin-top:-100px;
 }
 
 nav {
@@ -137,56 +148,6 @@ nav ul li#phone img{
 nav ul li img#logo{
     width: 43px;
     height: 54.86px;
-}
-
-
-button.btn{
-    width: Fixed (282px);
-    height: Hug (57px);
-    top: 2936px;
-    left: 690px;
-    padding: 12px, 32px, 12px, 32px;
-    border-radius: 8px;
-    gap: 20px;
-    background: rgba(143, 84, 46, 1);
-}
-
-button.btn text{
-    width: 188px;
-    height: 33px;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 33px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: rgba(240, 240, 240, 1);
-
-}
-
-button.btn{
-    width: Fixed (282px);
-    height: Hug (57px);
-    top: 2936px;
-    left: 690px;
-    padding: 12px, 32px, 12px, 32px;
-    border-radius: 8px;
-    gap: 20px;
-    background: rgba(143, 84, 46, 1);
-}
-
-button.btn text{
-    width: 188px;
-    height: 33px;
-    font-family: Open Sans;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 33px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    
-    color: rgba(240, 240, 240, 1);
-
 }
 
 div.contatoContainer{
@@ -319,24 +280,6 @@ div.contatoFormContainer{
 .mensagemInput {
     height: 400px;
 }
-  
-  .contatoFormContainer button[type="submit"] {
-    margin-top: 10px;
-    background-color: #8f542e;
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 5px;
-    display: flex; 
-    align-items: center; 
-    font-weight: 700;
-  }
-
-  .material-symbols-outlined {
-    margin-right: 10px;
-    font-size: 24px;
-  }
 
 div.contatoLogo {
     margin-top: 200px;
@@ -477,3 +420,27 @@ div.footer-right{
     margin:10%;
 }
 
+.material-symbols-outlined {
+    margin-left: 25px;
+    font-weight: 800;
+}
+button.btn {
+    margin-top: 10px;
+    font-size:18px;
+    height: 57px;
+    width: 280px;
+    background-color: #8f542e;
+    font-weight: 800;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    padding-left:32px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    font-weight: 700;
+  }
+  button.btn:hover{
+    background-color: rgba(202, 142, 103, 1);
+  }
