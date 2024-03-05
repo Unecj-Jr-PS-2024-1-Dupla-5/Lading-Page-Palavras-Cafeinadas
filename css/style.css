@@ -159,11 +159,10 @@ div.contatoContainer{
     flex-direction: column;
     box-sizing: border-box;
     background-color: #f5f3ed;
-    /* margin-bottom: 100px; */
 }
 div.contatoContent{
     width: 90%;
-    height: 70%;
+    height: 750px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -171,10 +170,16 @@ div.contatoContent{
 }
 
 div.contatoTitleContent{
-    width: 410px;
+    width: 438px;
     padding-left: 5px;
     padding-bottom: 7px;
     background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%)
+}
+
+@media screen and (max-width: 850px) {
+    div.contatoTitleContent{
+    width: 250px; 
+    }
 }
 
 p.contatoTitle{
@@ -184,6 +189,12 @@ p.contatoTitle{
     line-height: 48px;
     letter-spacing: 0.02em;
     text-align: left;
+}
+
+@media screen and (max-width: 850px) {
+    p.contatoTitle{
+        font-size: 24px; 
+    }
 }
 
 div.contatoInternalContent{
@@ -241,13 +252,11 @@ ul.contatoInfo li p {
   }
 
 div.contatoFormContainer{
-    height: 100%;
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     margin: 25px;
-    /* background-color: red; */
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 15px; 
@@ -260,11 +269,9 @@ div.contatoFormContainer{
     text-align: left;
 }
 
-@media screen and (max-width: 850px) {
-    div.contatoFormContainer{
-        width: 100%;
-    }
-    }
+form.venhaConhecerBtn {
+    margin-bottom: 20px;
+}
 
 .contatoFormContainer input {
     width: 100%;
@@ -276,7 +283,6 @@ div.contatoFormContainer{
   }
 
   .contatoFormContainer input[type="submit"] {
-    width: 50%;
     background-color: #8f542e;
     color: #fff;
     border: none;
@@ -318,10 +324,9 @@ div.venhaConhecerContainer {
 
 section.venhaConhecerMainContainer {
     width: 100%;
-    height: 42%;
+    height: 559px;
     background-image: url('/images/senha-conhecer-background.jpeg');
     background-size: 120%;
-    /* background-size: cover;  */
     background-position: center; 
     background-repeat: no-repeat; 
   }
@@ -364,7 +369,8 @@ section.venhaConhecerMainContainer {
         width: 90%;
     }
     section.venhaConhecerMainContainer {
-        height: 27vh;
+        width: auto;
+        height: auto;
     }
   }
 
@@ -644,7 +650,6 @@ div.mediaForMobile img {
     margin: 16px 48px;
     overflow-x: auto;
     display: flex;
-    width: 100%;
     gap: 8px;
     align-items: center;
     scroll-snap-type: x mandatory;
