@@ -177,7 +177,8 @@ div.contatoTitleContent{
 
 @media screen and (max-width: 850px) {
     div.contatoTitleContent{
-    width: 250px; 
+    width: 250px;
+    background: linear-gradient(to top, #fbc9a8 50%, #f5f3ed 50%);
     }
 }
 
@@ -321,13 +322,26 @@ div.contatoLogo p {
     
 }
 
-div.venhaConhecerContainer {
+/* div.venhaConhecerContainer {
     padding-top: 50px;
     padding-left: 70px;
 }
 
+@media screen and (max-width: 700px) {
+    div.venhaConhecerContainer{
+        padding-bottom: 40px;
+    }
+} */
+
 div.btnVenhaConhecer {
     margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+    div.btnVenhaConhecer {
+        margin-top: -20px;
+
+    }
 }
 
 section.venhaConhecerMainContainer {
@@ -336,7 +350,16 @@ section.venhaConhecerMainContainer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('/images/senha-conhecer-background.jpeg');
     background-size: 120%;
     background-position: center; 
-    background-repeat: no-repeat; 
+    padding-left: 70px;
+    
+  }
+
+  @media screen and (max-width: 700px) {
+    section.venhaConhecerMainContainer {
+        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
   }
 
   section.venhaConhecerMainContainer h1 {
@@ -400,6 +423,14 @@ div.sobreNosdata {
     display: flex;
     flex-direction: column;
     padding-left: 60px;
+}
+
+@media screen and (max-width: 500px) {
+
+    div.sobreNosdata {
+        margin-top: 120px;
+    }
+
 }
 
 section.sobreNosMainContainer p {
@@ -530,6 +561,7 @@ button.btn {
 
 img.cafeOnda {
     width: 100%;
+    margin-top: 120px;
 }
 
 .dividerCafe {
