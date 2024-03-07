@@ -172,8 +172,7 @@ div.contatoContent{
 div.contatoTitleContent{
     width: 438px;
     padding-left: 5px;
-    padding-bottom: 7px;
-    background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%)
+    background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%);
 }
 
 @media screen and (max-width: 850px) {
@@ -201,14 +200,19 @@ div.contatoInternalContent{
     margin-top: 40px;
     display: flex;
     box-sizing: border-box;
-    height: 711px;
+    height: 1000px;
     background-color: #f5f3ed;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+div.holder {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
 div.contatoInformationDatas{
-    width: 40%;
+    width: 70%;
     height: 100%;
     display: flex;
     border-top-left-radius: 15px;
