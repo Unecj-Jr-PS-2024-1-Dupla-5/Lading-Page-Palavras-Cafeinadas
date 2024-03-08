@@ -27,6 +27,12 @@ body{
     margin: 0;
 }
 
+@media screen and (max-width: 500px) {
+    body{
+        background-color: white;
+    }
+}
+
 @media screen and (max-width: 700px) {
     nav ul li, nav ul li a, nav ul li #phone {
         display: none !important;
@@ -169,6 +175,18 @@ div.contatoContent{
     background-color: #f5f3ed;
 }
 
+@media screen and (max-width: 500px) {
+    div.contatoContent{
+        background-color: white;
+    }
+    div.contatoContainer{
+        background-color: white;
+    }
+    div.mediaForMobile {
+        background-color: white;
+    }
+}
+
 div.contatoTitleContent{
     width: 438px;
     padding-left: 5px;
@@ -178,7 +196,7 @@ div.contatoTitleContent{
 @media screen and (max-width: 850px) {
     div.contatoTitleContent{
     width: 250px;
-    background: linear-gradient(to top, #fbc9a8 50%, #f5f3ed 50%);
+    background: linear-gradient(to top, #fbc9a8 50%, #FFFFFF 50%);
     }
 }
 
@@ -409,6 +427,14 @@ div.btnSobreNos {
     margin-top: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    div.btnSobreNos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 section.sobreNosMainContainer {
     display: flex;
     justify-content: center;
@@ -417,6 +443,12 @@ section.sobreNosMainContainer {
     height: 486px;
     padding-bottom: 50px;
     background-color: #f5f3ed;
+}
+
+@media screen and (max-width: 500px) {
+    section.sobreNosMainContainer {
+        background-color: white;
+    }
 }
 
 div.sobreNosdata {
@@ -429,6 +461,8 @@ div.sobreNosdata {
 
     div.sobreNosdata {
         margin-top: 120px;
+        background-color: white;
+        padding-left: 20px;
     }
 
 }
@@ -471,8 +505,14 @@ div.sobreNosTitleContent{
     box-sizing: border-box;
     width: 230px;
     padding-left: 5px;
-    margin-bottom: 15px;
     background: linear-gradient(to top, #fbc9a8 55%, #f5f3ed 45%)
+}
+
+@media screen and (max-width: 500px) {
+    div.sobreNosTitleContent{
+        width: 149px;
+        background: linear-gradient(to top, #fbc9a8 55%, #FFFFFF 45%)
+    }
 }
 
 h3.sobreNosTitle {
@@ -483,6 +523,12 @@ h3.sobreNosTitle {
     letter-spacing: 0.02em;
     text-align: left;
     
+}
+
+@media screen and (max-width: 700px) {
+    h3.sobreNosTitle {
+        font-size: 24px;
+    }
 }
 
 footer{
@@ -628,9 +674,10 @@ div.mediaForMobile {
     margin-top: 90px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     div.mediaForMobile {
     display: flex;
+    background-color: white;
     }
 }
 
