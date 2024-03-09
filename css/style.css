@@ -612,14 +612,20 @@ div.mediaForMobile img {
     div.mediaForMobile {
         display: flex;
         background-color: white;
-        }
-}
-
-@media (max-width: 600px) {
-    .carousel-slide {
-      flex: 1 0 90%;
     }
-  }
+    div.contatoTitleContent{
+        width: 250px;
+        background: linear-gradient(to top, #fbc9a8 50%, #FFFFFF 50%);
+    }
+    p.contatoTitle{
+            font-size: 24px; 
+    }
+    div.carousel-slide {
+        flex: 1 0 90%;
+        width: 250px;
+        height: auto;
+      }
+}
 
   @media screen and (max-width: 700px) {
     nav ul li, nav ul li a, nav ul li #phone {
@@ -697,12 +703,5 @@ div.mediaForMobile img {
 @media screen and (max-width: 850px) {
     div.contatoInformationDatas {
         display: none !important;
-    }
-    div.contatoTitleContent{
-        width: 250px;
-        background: linear-gradient(to top, #fbc9a8 50%, #FFFFFF 50%);
-    }
-    p.contatoTitle{
-        font-size: 24px; 
     }
 }
