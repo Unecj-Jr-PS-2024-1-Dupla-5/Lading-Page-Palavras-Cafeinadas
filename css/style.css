@@ -54,7 +54,7 @@ nav ul li, nav ul li a{
     justify-content: space-between;
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
@@ -267,6 +267,7 @@ section.venhaConhecerMainContainer {
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 20px;
+    padding-top: 60px;
   }
   section.venhaConhecerMainContainer p {
     width: 514px;
@@ -518,8 +519,6 @@ div.mediaForMobile img {
     width: 50px;
     height: 50px;
 }
-
-  /* TESTES */
 
   .carousel-arrow {
     position: absolute;
