@@ -4,7 +4,7 @@
 O projeto consiste em uma landing page desenvolvida para um processo seletivo de uma empresa Jr, que oferece serviços de consultoria e desenvolvimento web. A landing page tem como objetivo apresentar os serviços, de uma cafeteria, além de permitir ao usuário entrar em contato, ver galeria e as redes sociais. O projeto foi feito usando HTML, CSS e JavaScript puro, seguindo o modelo do figma do case prático. O projeto também usou ferramentas e metodologias ágeis eficientes, como o **Notion**, o **Kanban**, **GTD**, o **Visual Studio Code**, **Git**, **GitHub** e **GitHub Pages**.
 
 
-[Notion utilizado para gestão do projeto](https://educated-pull-494.notion.site/ed8595e8fbe4492ab73648928019f147?v=ac61dbce385e4fbb93de408a0733530e&pvs=4) | [Figma utilizado como modelo do projeto](https://www.figma.com/file/FkBGAlnBsLNp3lZxVlUMTb/PS-2024_1---Palavras-Cafeinadas-(Landing-Page)-(Copy)?type=design&node-id=0%3A1&mode=design&t=zVmSS4KHwc9YVqS3-1)
+[Notion utilizado para gestão do projeto](https://educated-pull-494.notion.site/ed8595e8fbe4492ab73648928019f147?v=ac61dbce385e4fbb93de408a0733530e&pvs=4) | [Figma utilizado como modelo do projeto](https://www.figma.com/file/FkBGAlnBsLNp3lZxVlUMTb/PS-2024_1---Palavras-Cafeinadas-(Landing-Page)-(Copy)?type=design&node-id=0%3A1&mode=design&t=zVmSS4KHwc9YVqS3-1) | [Link para visualização do projeto em deploy](https://unecj-jr-ps-2024-1-dupla-5.github.io/landing_page-palavras_cafeinadas/)
 
 
 ### Planejamento
