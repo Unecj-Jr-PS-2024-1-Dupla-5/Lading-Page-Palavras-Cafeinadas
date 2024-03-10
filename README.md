@@ -1,4 +1,4 @@
-# Processo seletivo Unect: LandingPage -Palavras Cafeinadas
+# Processo seletivo Unect: LandingPage - Palavras Cafeinadas
 
 ## Descrição
 O projeto consiste em uma landing page desenvolvida para um processo seletivo de uma empresa Jr, que oferece serviços de consultoria e desenvolvimento web. A landing page tem como objetivo apresentar os serviços, de uma cafeteria, além de permitir ao usuário entrar em contato, ver galeria e as redes sociais. O projeto foi feito usando HTML, CSS e JavaScript puro, seguindo o modelo do figma do case prático. O projeto também usou ferramentas e metodologias ágeis eficientes, como o **Notion**, o **Kanban**, **GTD**, o **Visual Studio Code**, **Git**, **GitHub** e **GitHub Pages**.
