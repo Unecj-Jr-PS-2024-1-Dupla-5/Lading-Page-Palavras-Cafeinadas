@@ -10,74 +10,9 @@ NAV E FOOTER COLOR: #8F542E;
 
 */
 
-/*
-PALETA DE CORES:
-
-PRIMARY-TEXT-COLOR: #291505;
-SECOND-TEXT-COLOR: #EBDACC;
-BACKGROUND-PRIMARY-COLOR: #FFFFFF;
-BACKGROUND-SECONDARY-COLOR: #B2784A;
-LAYOUT-COLOR: #E2C196;
-NAV E FOOTER COLOR: #8F542E;
-
-*/
-
 body{
     background-color: #f5f3ed;
     margin: 0;
-}
-
-@media screen and (max-width: 700px) {
-    nav ul li, nav ul li a, nav ul li #phone {
-        display: none !important;
-    }
-    nav{
-        height: 64px !important;
-    }
-    nav ul li#principal {
-        width: 100%;
-        display: flex !important;
-        justify-content: center;
-    }
-    nav ul li#principal img#logo {
-        width: 25px;
-        position: absolute;
-        left:0;
-        margin-left: 55px;
-    }
-    br#responsivo{
-        display: none;
-    }
-    footer{
-        display: inline-block !important;
-    }
-    div.footer-principal{
-        margin-left:10%;
-        margin-top:6%;
-        align-items: center;
-    }
-    div.footer-left{
-        margin: 0 !important;
-        margin-top: 3% !important;
-        margin-left: 10% !important;
-    }
-    div.footer-right{
-        margin: 0 !important;
-        margin-left: 10% !important;
-        text-align: left !important;
-    }
-    header{
-        margin-top:-64px !important;
-    }
-    main{
-        margin-top:64px !important;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    div.contatoInformationDatas {
-        display: none !important;
-    }
 }
 
 main{
@@ -117,10 +52,9 @@ nav ul li, nav ul li a{
     left:0;
     color: rgba(240, 240, 240, 1);
     justify-content: space-between;
-    align-items: center;
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: center;
@@ -172,18 +106,11 @@ div.contatoContent{
 div.contatoTitleContent{
     width: 438px;
     padding-left: 5px;
-    padding-bottom: 7px;
-    background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%)
-}
-
-@media screen and (max-width: 850px) {
-    div.contatoTitleContent{
-    width: 250px; 
-    }
+    background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%);
 }
 
 p.contatoTitle{
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -191,24 +118,23 @@ p.contatoTitle{
     text-align: left;
 }
 
-@media screen and (max-width: 850px) {
-    p.contatoTitle{
-        font-size: 24px; 
-    }
-}
-
 div.contatoInternalContent{
     margin-top: 40px;
     display: flex;
     box-sizing: border-box;
-    height: 711px;
+    height: 1000px;
     background-color: #f5f3ed;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+div.holder {
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
 div.contatoInformationDatas{
-    width: 40%;
+    width: 70%;
     height: 100%;
     display: flex;
     border-top-left-radius: 15px;
@@ -232,7 +158,7 @@ ul.contatoInfo li {
     align-items: center;
     margin-top: 20px;
     color: #FFFFFF;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 25px;
@@ -261,7 +187,7 @@ div.contatoFormContainer{
     border-bottom-left-radius: 0px;
     border-top-right-radius: 15px; 
     border-bottom-right-radius: 15px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 30px;
@@ -308,7 +234,7 @@ div.contatoLogo {
 div.contatoLogo p {
     margin-top: 15px;
     color: white;
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 32px;
     font-weight: 400;
     line-height: 39px;
@@ -317,35 +243,26 @@ div.contatoLogo p {
     
 }
 
-div.venhaConhecerContainer {
-    padding-top: 25px;
-    padding-left: 45px;
+div.btnVenhaConhecer {
+    margin-top: 50px;
 }
-
-section.venhaConhecerMainContainer {
-    width: 100%;
-    height: 559px;
-    background-image: url('/images/senha-conhecer-background.jpeg');
-    background-size: 120%;
-    background-position: center; 
-    background-repeat: no-repeat; 
-  }
 
   section.venhaConhecerMainContainer h1 {
     width: 589px;
     color:#F0F0F0;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 56px;
     font-weight: 700;
     line-height: 76px;
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 20px;
+    padding-top: 60px;
   }
   section.venhaConhecerMainContainer p {
     width: 514px;
     color:#F0F0F0;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 33px;
@@ -354,40 +271,23 @@ section.venhaConhecerMainContainer {
     margin-bottom: 20px;
   }
 
-  @media screen and (max-width: 700px) {
-    section.venhaConhecerMainContainer p {
-        display: none;
-    }
-    section.venhaConhecerMainContainer h1 {
-        padding-bottom: 45px;
-        font-size: 28px;
-        line-height: 1.5;
-        overflow-wrap: break-word;
-        word-break: break-word;
-        white-space: pre-wrap;
-        margin-bottom: 0px;
-        width: 90%;
-    }
-    section.venhaConhecerMainContainer {
-        width: auto;
-        height: auto;
-    }
-  }
+div.btnSobreNos {
+    margin-top: 20px;
+}
 
 section.sobreNosMainContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 559px;
-    background-color: #f5f3ed;
+    height: 486px;
     padding-bottom: 50px;
+    background-color: #f5f3ed;
 }
 
 div.sobreNosdata {
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
     padding-left: 60px;
 }
 
@@ -395,7 +295,7 @@ section.sobreNosMainContainer p {
     width: 80%;
     color: #1f0c00;
     margin-bottom: 10px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -429,12 +329,11 @@ div.sobreNosTitleContent{
     box-sizing: border-box;
     width: 230px;
     padding-left: 5px;
-    padding-bottom: 7px;
     background: linear-gradient(to top, #fbc9a8 55%, #f5f3ed 45%)
 }
 
 h3.sobreNosTitle {
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 56px;
@@ -483,8 +382,13 @@ button.btn {
     border-radius: 5px;
     display: flex; 
     align-items: center; 
-    font-weight: 700;
   }
+
+  button.btn a {
+    text-decoration: none;
+    color: white;
+  }
+
   button.btn:hover{
     background-color: rgba(202, 142, 103, 1);
   }
@@ -501,7 +405,7 @@ button.btn {
   }
 
   div.cafeteriaContainer h1 {
-    font-family: Cormorant Garamond;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
@@ -513,6 +417,7 @@ button.btn {
 
 img.cafeOnda {
     width: 100%;
+    margin-top: 120px;
 }
 
 .dividerCafe {
@@ -548,7 +453,7 @@ div.carousel-slide img {
 }
 
 div.carousel-slide h1 {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 30px;
@@ -558,7 +463,7 @@ div.carousel-slide h1 {
 }
 
 div.carousel-slide p {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -579,17 +484,11 @@ div.mediaForMobile {
     margin-top: 90px;
 }
 
-@media screen and (max-width: 700px) {
-    div.mediaForMobile {
-    display: flex;
-    }
-}
-
 div.mediaForMobile h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 600;
     line-height: 42px;
@@ -610,8 +509,6 @@ div.mediaForMobile img {
     width: 50px;
     height: 50px;
 }
-
-  /* TESTES */
 
   .carousel-arrow {
     position: absolute;
@@ -683,9 +580,129 @@ div.mediaForMobile img {
     background-color: #bae;
     scroll-snap-align: center;
   }
-  
-  @media (max-width: 600px) {
-    .carousel-slide {
-      flex: 1 0 90%;
+
+  /* Responsivity */
+  @media screen and (max-width: 500px) {
+    body{
+        background-color: white;
     }
-  }
+    div.contatoContent{
+        background-color: white;
+    }
+    div.contatoContainer{
+        background-color: white;
+    }
+    div.btnSobreNos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section.sobreNosMainContainer {
+        background-color: white;
+    }
+    div.sobreNosdata {
+        margin-top: 120px;
+        background-color: white;
+        padding-left: 20px;
+    }
+    div.sobreNosTitleContent{
+        width: 149px;
+        background: linear-gradient(to top, #fbc9a8 55%, #FFFFFF 45%)
+    }
+    div.mediaForMobile {
+        display: flex;
+        background-color: white;
+    }
+    div.contatoTitleContent{
+        width: 250px;
+        background: linear-gradient(to top, #fbc9a8 50%, #FFFFFF 50%);
+    }
+    p.contatoTitle{
+            font-size: 24px; 
+    }
+    div.carousel-slide {
+        flex: 1 0 90%;
+        width: 250px;
+        height: auto;
+      }
+}
+
+  @media screen and (max-width: 700px) {
+    nav ul li, nav ul li a, nav ul li #phone {
+        display: none !important;
+    }
+    nav{
+        height: 64px !important;
+    }
+    nav ul li#principal {
+        width: 100%;
+        display: flex !important;
+        justify-content: center;
+    }
+    nav ul li#principal img#logo {
+        width: 25px;
+        position: absolute;
+        left:0;
+        margin-left: 55px;
+    }
+    br#responsivo{
+        display: none;
+    }
+    footer{
+        display: inline-block !important;
+    }
+    div.footer-principal{
+        margin-left:10%;
+        margin-top:6%;
+        align-items: center;
+    }
+    div.footer-left{
+        margin: 0 !important;
+        margin-top: 3% !important;
+        margin-left: 10% !important;
+    }
+    div.footer-right{
+        margin: 0 !important;
+        margin-left: 10% !important;
+        text-align: left !important;
+    }
+    header{
+        margin-top:-64px !important;
+    }
+    main{
+        margin-top:64px !important;
+    }
+    div.btnVenhaConhecer {
+        margin-top: -20px;
+    }
+    section.venhaConhecerMainContainer p {
+        display: none;
+    }
+    section.venhaConhecerMainContainer h1 {
+        padding-bottom: 45px;
+        font-size: 28px;
+        line-height: 1.5;
+        overflow-wrap: break-word;
+        word-break: break-word;
+        white-space: pre-wrap;
+        margin-bottom: 0px;
+        width: 90%;
+        padding-top: 0px;
+    }
+    section.venhaConhecerMainContainer {
+        width: auto;
+        height: auto;
+        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    h3.sobreNosTitle {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    div.contatoInformationDatas {
+        display: none !important;
+    }
+}
