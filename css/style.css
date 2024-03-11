@@ -368,6 +368,7 @@ div.footer-right{
     font-weight: 800;
 }
 button.btn {
+    font-family: 'Open Sans', sans-serif;
     margin-top: 10px;
     font-size:18px;
     height: 57px;
@@ -694,7 +695,6 @@ div.mediaForMobile img {
         height: auto;
         padding-bottom: 50px;
         padding-top: 30px;
-        padding-left: 30px;
     }
     h3.sobreNosTitle {
         font-size: 24px;
