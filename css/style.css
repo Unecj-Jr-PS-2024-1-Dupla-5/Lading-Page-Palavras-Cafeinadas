@@ -106,7 +106,7 @@ div.contatoContent{
 div.contatoTitleContent{
     width: 438px;
     padding-left: 5px;
-    background: linear-gradient(to top, #fbc9a8 65%, #f5f3ed 35%);
+    background: linear-gradient(to top, #fbc9a8 55%, #f5f3ed 45%);
 }
 
 p.contatoTitle{
